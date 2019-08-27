@@ -10,6 +10,7 @@ export const pluginLoaderMap: { [name: string]: () => any } = {
   'typescript-operations': () => import('@graphql-codegen/typescript-operations'),
   'typescript-resolvers': () => import('@graphql-codegen/typescript-resolvers'),
   'typescript-apollo-angular': () => import('@graphql-codegen/typescript-apollo-angular'),
+  'typescript-apollo-client': () => import('@graphql-codegen/typescript-apollo-client'),
   'typescript-react-apollo': () => import('@graphql-codegen/typescript-react-apollo'),
   'typescript-stencil-apollo': () => import('@graphql-codegen/typescript-stencil-apollo'),
   'typescript-graphql-files-modules': () => import('@graphql-codegen/typescript-graphql-files-modules'),

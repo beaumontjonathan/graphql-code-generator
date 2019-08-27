@@ -59,6 +59,15 @@ export const plugins: Array<PluginOption> = [
     shouldBeSelected: () => true,
   },
   {
+    name: `TypeScript Apollo Client ${italic('(typed GQL functions')}`,
+
+    package: '@graphql-codegen/typescript-apollo-client',
+    value: 'typescript-apollo-client',
+    pathInRepo: 'typescript/apollo-client',
+    available: tags => allOf([Tags.node], Tags.typescript),
+    shouldBeSelected: () => true,
+  },
+  {
     name: `TypeScript React Apollo ${italic('(typed components and HOCs)')}`,
     package: '@graphql-codegen/typescript-react-apollo',
     value: 'typescript-react-apollo',

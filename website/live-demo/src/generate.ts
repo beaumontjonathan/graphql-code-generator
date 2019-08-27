@@ -11,6 +11,7 @@ export async function generate(config: string, schema: string, documents?: strin
     const plugins = normalizeConfig(generates[filename].plugins || generates[filename]);
     const outputConfig = generates[filename].config;
     const { codegen } = await import('@graphql-codegen/core');
+    console.log('codegen is', codegen, await import('@graphql-codegen/core'));
     const { parse } = await import('graphql');
     const pluginMap: any = {};
 

@@ -125,6 +125,17 @@ export const EXAMPLES: { [name: string]: Example } = {
     schema: TS_SCHEMA,
     documents: TS_QUERY,
   },
+  'apollo-client': {
+    name: 'TypeScript Apollo-Client Components',
+    config: `generates:
+  components.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-apollo-client`,
+    schema: TS_SCHEMA,
+    documents: TS_QUERY,
+  },
   'typescript-urql': {
     name: 'TypeScript urql',
     config: `generates:

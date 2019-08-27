@@ -22,6 +22,7 @@
     "@graphql-codegen/time": "1.6.1",
     "@graphql-codegen/typescript": "1.6.1",
     "@graphql-codegen/typescript-apollo-angular": "1.6.1",
+    "@graphql-codegen/typescript-apollo-client": "1.6.1",
     "@graphql-codegen/typescript-compatibility": "1.6.1",
     "@graphql-codegen/typescript-graphql-files-modules": "1.6.1",
     "@graphql-codegen/typescript-mongodb": "1.6.1",

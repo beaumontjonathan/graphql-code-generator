@@ -179,6 +179,9 @@
       "plugins/typescript-apollo-angular": {
         "title": "TypeScript Apollo Angular"
       },
+      "plugins/typescript-apollo-client": {
+        "title": "TypeScript Apollo Client"
+      },
       "plugins/typescript-compatibility": {
         "title": "TypeScript 1.0 Compatibility"
       },

@@ -23,6 +23,7 @@
       "plugins/typescript-mongodb",
       "plugins/typescript-react-apollo",
       "plugins/typescript-apollo-angular",
+      "plugins/typescript-apollo-client",
       "plugins/typescript-stencil-apollo",
       "plugins/typescript-urql",
       "plugins/flow",
